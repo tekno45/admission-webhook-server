@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/liangrog/admission-webhook-server/pkg/admission/podnodesselector"
-	"github.com/liangrog/admission-webhook-server/pkg/utils"
+	"github.com/tekno45/admission-webhook-server/pkg/admission/podnodesselector"
+	"github.com/tekno45/admission-webhook-server/pkg/utils"
 )
 
 // TLS secrets

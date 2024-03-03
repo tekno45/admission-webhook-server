@@ -1,7 +1,7 @@
 # Kubernetes Admission Webhook Server
-[![Version](https://img.shields.io/github/v/release/liangrog/admission-webhook-server)](https://github.com/liangrog/admission-webhook-server/releases)
-[![GoDoc](https://godoc.org/github.com/liangrog/admission-webhook-server?status.svg)](https://godoc.org/github.com/liangrog/admission-webhook-server)
-![](https://github.com/liangrog/admission-webhook-server/workflows/Release/badge.svg)
+[![Version](https://img.shields.io/github/v/release/liangrog/admission-webhook-server)](https://github.com/tekno45/admission-webhook-server/releases)
+[![GoDoc](https://godoc.org/github.com/tekno45/admission-webhook-server?status.svg)](https://godoc.org/github.com/tekno45/admission-webhook-server)
+![](https://github.com/tekno45/admission-webhook-server/workflows/Release/badge.svg)
 
 ---
 
@@ -23,7 +23,7 @@ Secondly you need to update helm value `podNodesSelectorConfig` in `chart/values
 Note: below example using Helm v3. However the chart is compatible with helm version older than v3.
 
 ```sh
-$ git clone https://github.com/liangrog/admission-webhook-server
+$ git clone https://github.com/tekno45/admission-webhook-server
 $ cd admission-webhook-server
 $
 $ sh ssl.sh admission-webhook.tools.svc
